@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  align-content: center;
+  height: 100vh;
+  background-color: rgb(9, 12, 22);
+
+}
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.app {
+  margin: auto;
+}
+.card {
+  background-color: #1c1f31;
+  color: white;
+  border-radius: 5px;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 20px 10px;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 0px rgb(168, 105, 71);
+}
+.profile-container {
+  display: flex;
+  flex-flow: row nowrap;
+  max-height: 300px;
+  width: 500px;
+  margin: auto;
+  background-color: #1c1f31;
+  border-radius: 20px;
+  border: 2px solid #454752 ;
+}
+.card-profile {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  max-height: 300px;
+  width: 45%;
+  padding: 10px 20px 10px;
+  background-color: #2f3242;
+  color: white;
+  border-radius: 20px;
+}
+.card-info {
+  height: 100%;
+  width: 55%;
+  color: white;
+}
+.badge {
+  background-color: #253844;
+  padding: 3px;
+  border: 2px solid #454752;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
